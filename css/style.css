@@ -2,6 +2,7 @@
     --font: "IBM Plex Sans";
     --background: #0f0e17;
     --foreground: #fffffe;
+    --paragraph:  #A9A9A9;
     --pink: #e53170;
     --red: #f25f4c;
     --orange: #ff8906;
@@ -42,6 +43,14 @@ h1 {
     font-size: 1rem;
     font-weight: normal;
     color: var(--red);
+}
+
+p {
+    display: inline;
+    font-family: var(--font);
+    font-size: 1rem;
+    font-weight: normal;
+    color: var(--paragraph);
 }
 
 .tree > ul {
